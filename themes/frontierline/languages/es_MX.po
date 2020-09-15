@@ -1,49 +1,47 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-03-27 16:55-0700\n"
-"PO-Revision-Date: 2020-09-08 19:42-0500\n"
+"POT-Creation-Date: 2020-09-14 17:26-0500\n"
+"PO-Revision-Date: 2020-09-14 18:54-0500\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Last-Translator: \n"
-"Language: es_MX\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: archive.php:18 functions.php:306
+#: archive.php:18 functions.php:399
 #, php-format
 msgid "Articles in “%s”"
 msgstr "Artículos en “%s”"
 
-#: archive.php:20 functions.php:308
+#: archive.php:20 functions.php:401
 #, php-format
 msgid "Articles tagged with “%s”"
 msgstr "Artículos etiquetados con \"%s\""
 
-#: archive.php:22 archive.php:24 archive.php:26 functions.php:312
-#: functions.php:314 functions.php:316
+#: archive.php:22 archive.php:24 archive.php:26 functions.php:405
+#: functions.php:407 functions.php:409
 #, php-format
 msgid "Articles from %s"
 msgstr "Artículos de “%s”"
 
-#: archive.php:28 functions.php:310
+#: archive.php:28 functions.php:403
 #, php-format
 msgid "Articles by %s"
 msgstr "Artículos de “%s”"
 
-#. L10n: %s: post title
 #: comments.php:23
 #, php-format
 msgid "One comment on “%s”"
 msgstr "Un comentario en \"%s\""
 
-#. L10n: 1: number of comments, 2: post title
 #: comments.php:26
 #, php-format
 msgid "%1$s comments on “%2$s”"
@@ -61,7 +59,6 @@ msgstr "Publicar un comentario"
 msgid "More comments:"
 msgstr "Más comentarios:"
 
-#. L10n: 'trackbacks' are when another website refers to this blog post with a link notification
 #: comments.php:54
 #, php-format
 msgid ""
@@ -222,39 +219,77 @@ msgstr ""
 msgid "Site Menu"
 msgstr "Menú del sitio"
 
-#: functions.php:84
+#: functions.php:87 functions.php:170
+msgid "Show newsletter form under posts"
+msgstr "Mostrar el formulario de boletín de noticias en las publicaciones"
+
+#: functions.php:102 functions.php:186
+msgid "Show newsletter form on Pages"
+msgstr "Mostrar el formulario de boletín de noticias en pagínas"
+
+#: functions.php:117 functions.php:202
+msgid "Show newsletter form under posts lists and other views"
+msgstr ""
+"Mostrar el formulario de boletín de noticias en la lista de publicaciones y "
+"otras vistas"
+
+#: functions.php:129
 msgid "Social sharing for posts"
 msgstr "Compartir en redes sociales para publicaciones"
 
-#: functions.php:96
+#: functions.php:141
 msgid "Social sharing for Pages"
 msgstr "Compartir en redes sociales para páginas"
 
-#: functions.php:108
+#: functions.php:153
 msgid "Twitter username"
 msgstr "Usuario de Twitter"
 
-#: functions.php:125
+#: functions.php:172
+msgid ""
+"Adds a subscribe form to the Mozilla newsletter to the bottom of blog "
+"articles."
+msgstr ""
+"Agregar botones de Twitter y Facebook en la parte superior de las "
+"publicaciones del blog."
+
+#: functions.php:188
+msgid ""
+"Adds a subscribe form to the Mozilla newsletter to the bottom of static "
+"Pages."
+msgstr ""
+"Agregar botones de Twitter y Facebook en la parte superior de las paginas "
+"estáticas."
+
+#: functions.php:204
+msgid ""
+"Adds a subscribe form to the Mozilla newsletter to the bottom of posts lists "
+"and other views."
+msgstr ""
+"Añade un formulario de suscripción al boletín de Mozilla al final de las "
+"listas de publicaciones y otras vistas."
+
+#: functions.php:218
 msgid "Add social sharing buttons to posts"
 msgstr "Agregar botones para comprar en redes sociales en las publicaciones"
 
-#: functions.php:127
+#: functions.php:220
 msgid "Adds buttons for Twitter and Facebook to the top of blog articles."
 msgstr ""
 "Agregar botones de Twitter y Facebook en  la parte superior de las "
 "publicaciones del blog."
 
-#: functions.php:141
+#: functions.php:234
 msgid "Add social sharing buttons to Pages"
 msgstr "Agregar botones de redes sociales en las paginas"
 
-#: functions.php:143
+#: functions.php:236
 msgid "Adds buttons for Twitter and Facebook to the top of static Pages."
 msgstr ""
 "Agregar botones de Twitter y Facebook en  la parte superior de las paginas "
 "estáticas."
 
-#: functions.php:156
+#: functions.php:249
 msgid ""
 "The Twitter account for attribution when sharing. Appears as \"via @username"
 "\" at the end of the tweet, and Twitter may suggest related accounts to "
@@ -264,25 +299,25 @@ msgstr ""
 "\"vía @username\" al final del tweet y Twitter quizá sugiera cuentas "
 "relacionadas para seguir. Deja en blanco para no agregar atribución."
 
-#: functions.php:168
+#: functions.php:261
 msgid "Extra Large"
 msgstr "Extra Grande"
 
-#: functions.php:278
+#: functions.php:371
 #, php-format
 msgid "Page %s"
 msgstr "Página %s"
 
-#: functions.php:321
+#: functions.php:414
 #, php-format
 msgid "Search results for “%s”"
 msgstr "Resultados de la búsqueda \"%s\""
 
-#: functions.php:323
+#: functions.php:416
 msgid "Not Found"
 msgstr "No encontrado"
 
-#: functions.php:403
+#: functions.php:496
 msgid ""
 "Spamming robots, please fill in this field. Real humans should leave it "
 "blank."
@@ -290,7 +325,7 @@ msgstr ""
 "Robots del spam, por favor rellenen el campo. Los humanos pueden dejar esto "
 "en blanco."
 
-#: functions.php:413
+#: functions.php:506
 msgid ""
 "Sorry, you appear to be a spamming robot because you filled in the hidden "
 "spam trap field. To show you are not a spammer, submit your comment again "
@@ -300,57 +335,56 @@ msgstr ""
 "prueba de spam oculto. Para confirmar que no eres un spammer, envía tu "
 "comentario de nuevo dejando en blanco el campo."
 
-#: functions.php:414
+#: functions.php:507
 msgid "Spam Prevention"
 msgstr "Prevención de Spam"
 
-#: functions.php:504
+#: functions.php:597
 msgid "Read more"
 msgstr "Leer más"
 
-#: functions.php:540
+#: functions.php:633
 msgid "Sidebar Menu"
 msgstr "Menú lateral"
 
-#: functions.php:565
+#: functions.php:635
+msgid "Widgets added here will appear in the flyout sidebar."
+msgstr "Los Widgets agregados aquí aparecerán en la barra lateral."
+
+#: functions.php:658
 msgid "Trackback from "
 msgstr "Enlaces trackback de "
 
-#. L10n: Trackback headings read "Trackback from <Site> on <Date> at <Time>:"
-#. L10n: Pingback headings read "Ping from <Site> on <Date> at <Time>:"
-#: functions.php:568 functions.php:581
+#: functions.php:661 functions.php:674
 msgid "on"
 msgstr "en"
 
-#: functions.php:569 functions.php:582 functions.php:596
+#: functions.php:662 functions.php:675 functions.php:689
 msgid "Permanent link to this comment by "
 msgstr "Enlace permanente a este comentario de "
 
-#. L10n: Trackback headings read "Trackback from <Site> on <Date> at <Time>:"
-#. L10n: Pingback headings read "Ping from <Site> on <Date> at <Time>:"
-#. L10n: Comment headings read "<Name> wrote on <Date> at <Time>:"
-#: functions.php:572 functions.php:585 functions.php:599
+#: functions.php:665 functions.php:678 functions.php:692
 #, php-format
 msgid "%1$s at %2$s:"
 msgstr "%1$s a %2$s:"
 
-#: functions.php:578
+#: functions.php:671
 msgid "Ping from "
 msgstr "Ping desde "
 
-#: functions.php:595
+#: functions.php:688
 msgid "wrote on"
 msgstr "escribió en"
 
-#: functions.php:608
+#: functions.php:701
 msgid "Your comment is awaiting moderation."
 msgstr "Tu comentario está en espera de ser moderado."
 
-#: functions.php:620
+#: functions.php:713
 msgid "Edit comment"
 msgstr "Editar comentario"
 
-#: functions.php:667
+#: functions.php:760
 msgid ""
 "Remember to include a featured image! It should be at least 1400 by 770 "
 "pixels."
@@ -358,17 +392,17 @@ msgstr ""
 "¡Recuerda agregar una imagen destacada! puede ser de al menos 1400x770 "
 "pixeles."
 
-#: functions.php:670
+#: functions.php:763
 msgid " Posts without a featured image will show a standard placeholder image."
 msgstr ""
 " Las publicaciones con una imagen destacada mostraran un marcador de "
 "posición de la imagen estándar."
 
-#: functions.php:715
+#: functions.php:808
 msgid "Custom Sidebar Content"
 msgstr "Contenido personalizado de la barra lateral"
 
-#: functions.php:746
+#: functions.php:839
 msgid ""
 "The image will be used as a thumbnail for this post and for social media, "
 "but won‘t appear on the post page."
@@ -376,11 +410,11 @@ msgstr ""
 "La imagen sera usada como miniatura de la publicación y para las redes "
 "sociales, pero no aparecerá en la página de la publicación."
 
-#: functions.php:749
+#: functions.php:842
 msgid "Hide featured image"
 msgstr "Ocultar imagen destacada"
 
-#: functions.php:756
+#: functions.php:849
 msgid "Hide Featured Image"
 msgstr "Ocultar imagen destacada"
 
@@ -395,6 +429,10 @@ msgstr ""
 #, php-format
 msgid "Original size: <a href=\"%1$s\">%2$s &times; %3$s</a>"
 msgstr "Tamaño orginal: <a href=\"%1$s\">%2$s &times; %3$s</a>"
+
+#: inc/customizer.php:11
+msgid "Theme Options"
+msgstr "Opciones de tema"
 
 #: inc/customizer.php:22
 msgid "Accent Color"
@@ -468,6 +506,75 @@ msgstr "Barras y corchetes"
 msgid "Trade Winds"
 msgstr "Vientos alisios"
 
+#: inc/customizer.php:72
+msgid "Header Category Menu"
+msgstr "Menú de las categorías en el Header"
+
+#: inc/customizer.php:73
+msgid "Enable a drop down category menu on the fixed navigation bar."
+msgstr ""
+"Habilitar el menú de categorías desplegable en la barra de navegación fija."
+
+#: inc/customizer.php:89
+msgid "Firefox download button"
+msgstr "Botón Descarga Firefox"
+
+#: inc/customizer.php:90
+msgid ""
+"Display a “Download Firefox” button in the main navigation in place of the "
+"“Discover Firefox” link."
+msgstr ""
+"Mostrar el botón \"Descargar Firefox\" en la barra de navegación en lugar "
+"del enlace \"Descubrir Firefox\"."
+
+#: inc/customizer.php:106
+msgid "Disable featured images on post pages"
+msgstr "Desactivar imagen destacada en las publicaciones"
+
+#: inc/customizer.php:107
+msgid ""
+"Don’t show the full sized featured image on single posts and static pages."
+msgstr ""
+"No mostrar el tamaño completo de la imagen destacada en las publicaciones y "
+"páginas."
+
+#: inc/customizer.php:123
+msgid "Disable featured images in summaries"
+msgstr "Desactivar imagen destacada en los resúmenes"
+
+#: inc/customizer.php:124
+msgid ""
+"Don’t show featured images on summary views (the front page, archives, "
+"search results, etc.)"
+msgstr ""
+"No mostrar imágenes destacadas en la vistas de resumen (página principal, "
+"archivos, resultados de búsqueda, etc.)"
+
+#: inc/customizer.php:140
+msgid "Disable bylines"
+msgstr "Desactivar datos de autor"
+
+#: inc/customizer.php:141
+msgid "Don’t display the author’s name with articles."
+msgstr "No mostrar el nombre del autor en los articulos."
+
+#: inc/customizer.php:157
+msgid "Site introduction"
+msgstr "Introducción del sitio"
+
+#: inc/customizer.php:158
+msgid "Display a brief introduction to appear at the top of the home page."
+msgstr ""
+"Mostrar una breve introducción en la parte superior de la pagina principal."
+
+#: inc/customizer.php:172
+msgid "Site introduction text"
+msgstr "Texto de introducción al sitio"
+
+#: inc/customizer.php:173
+msgid "Some HTML is allowed."
+msgstr "Se permiten algunas etiquetas HTML."
+
 #: includes/categories.php:13
 msgid "More articles"
 msgstr "Más artículos"
@@ -528,38 +635,37 @@ msgstr "Explorar"
 msgid "Categories"
 msgstr "Categorías"
 
-#: includes/newsletter-form.php:14
+#: includes/newsletter-form.php:15
 msgid "Love the Web?"
 msgstr "¿Te gusta la Web?"
 
-#: includes/newsletter-form.php:15
+#: includes/newsletter-form.php:16
 msgid "Get the Mozilla newsletter and help us keep it open and free."
 msgstr ""
 "Recibe el boletín de las ultimas noticias de Mozilla y ayuda a que siga "
 "siendo abierta y libre."
 
-#: includes/newsletter-form.php:22
+#: includes/newsletter-form.php:23
 msgid "Your e-mail address"
 msgstr "Tu dirección correo electrónico"
 
-#. L10n: 'yourname' is used as the first part of an example e-mail address, as in 'yourname@example.com'
-#: includes/newsletter-form.php:24
+#: includes/newsletter-form.php:25
 msgid "yourname"
 msgstr "tunombre"
 
-#: includes/newsletter-form.php:29
+#: includes/newsletter-form.php:30
 msgid "Language"
 msgstr "Idioma"
 
-#: includes/newsletter-form.php:40
+#: includes/newsletter-form.php:41
 msgid "HTML"
 msgstr "HTML"
 
-#: includes/newsletter-form.php:41
+#: includes/newsletter-form.php:42
 msgid "Text"
 msgstr "Texto"
 
-#: includes/newsletter-form.php:47
+#: includes/newsletter-form.php:48
 #, php-format
 msgid ""
 "I’m okay with Mozilla handling my info as explained in this <a href=\"%s"
@@ -568,19 +674,19 @@ msgstr ""
 "Me parece bien que Mozilla maneje mi información como se explica en la <a "
 "href=\"%s\">Política de privacidad</a>."
 
-#: includes/newsletter-form.php:53
+#: includes/newsletter-form.php:54
 msgid "Sign up now"
 msgstr "Regístrate ahora"
 
-#: includes/newsletter-form.php:55
+#: includes/newsletter-form.php:56
 msgid "We will only send you Mozilla-related information."
 msgstr "Solo enviamos información relacionada con Mozilla."
 
-#: includes/newsletter-form.php:61
+#: includes/newsletter-form.php:62
 msgid "Thanks!"
 msgstr "¡Gracias!"
 
-#: includes/newsletter-form.php:63
+#: includes/newsletter-form.php:64
 msgid ""
 "If you haven’t previously confirmed a subscription to a Mozilla-related "
 "newsletter you may have to do so."
@@ -588,7 +694,7 @@ msgstr ""
 "Si no haz confirmado una suscripción al boletín de noticias de Mozilla, es "
 "posible que tengas que hacerlo ahora."
 
-#: includes/newsletter-form.php:64
+#: includes/newsletter-form.php:65
 msgid "Please check your inbox or your spam filter for an e-mail from us."
 msgstr ""
 "Por favor verifica en tu bandeja de entrada o en el filtro de spam si hay un "
